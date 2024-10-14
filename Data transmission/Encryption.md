@@ -9,11 +9,11 @@ Understand how data is encrypted using symmetric and asymmetric encryption
 
 ## Secrets
 
-The sole reason for the existance of encryption, is to make data unreadable. 
+The sole reason for the existence of encryption is to make data unreadable. 
 Encryption involves ``scrambling data`` before being transmitted, 
-which helpts it to be protected against unauthorised access as the scrambled data is unreadable.
+which helps to deter unauthorised access to it.
 
-There are two main methods of encryption, ``symmetric`` and ``asymmetric``.
+There are two main encryption methods, ``symmetric`` and ``asymmetric``.
 
 ## One or two keys?
 

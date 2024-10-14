@@ -35,16 +35,17 @@ Packet switching is a process where
 ``Serial`` and ``parallel``, they somewhat represent how roads work. 
 
 Take ``serial``, it represents a road that can go as far as possible but would take a large amount of time to reach from point A to B, especially if it is somewhat crowded.
-``Parallel`` is more of like a highway, where multiple cars can drive faster, within a short distance, all at about the same time.
+``Parallel`` is more like a highway, where multiple cars can drive faster, within a short distance, all at about the same time.
 
 In computer science, a ``serial`` data transmission would have data travelling over a single wire, while a ``parallel`` data transmission has data passing through multiple.
 
-There is also another factor to this, ``simplex``, for example, has data travelling in only one direction. An example of a ``simplex`` data transmission would be sending data from a computer to a monitor.
+Another factor in data transmission methods would be ``simplex`` and ``duplex``.
 
-``Full-duplex``, however, is the complete opposite of simplex. It allows data to travel in both directions at the same time, at a high cost. One example would be a network cable. 
+``Simplex``, for example, has data travelling in only one direction. An example of a ``simplex`` data transmission would be sending data from a computer to a monitor.
 
-``Half-duplex`` is somewhat the middle child among the 3, with it allowing data to travel in both directions, but only one at a time. It's cheaper than simplex for bidirectional transmission but is slower than full-duplex. An example would be when a printer receives data from a computer and sends an error message back once completed.
+``Full-duplex``, however, is the complete opposite of simplex. It allows data to travel in both directions simultaneously, at a high cost. One example would be a network cable. 
 
+``Half-duplex`` is somewhat the middle child among them, allowing data to travel in both directions, but only one at a time. It's cheaper than simplex for bidirectional transmission but is slower than full-duplex. An example would be when a printer receives data from a computer and sends an error message back once completed.
 
 These data transmission methods can combine each, with all combinations present below.
 
